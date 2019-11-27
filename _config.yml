@@ -1,0 +1,11 @@
+permalink: /posts/:title
+markdown: kramdown
+
+gems:
+  - jekyll-sitemap
+
+name: Edka 
+url: https://bashed.me
+description: Do something good 
+twitter: 4thevo
+github: cs102

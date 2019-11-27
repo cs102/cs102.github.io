@@ -1,0 +1,13 @@
+---
+layout: post
+title: The More You Know
+category: posts
+---
+
+The more you know, the less others will consider taking advantage of you!
+
+{% highlight ruby  %}
+def work
+  smarter 
+end
+{% endhighlight %}
