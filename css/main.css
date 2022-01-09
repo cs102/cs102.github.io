@@ -19,7 +19,15 @@ h1 {
   text-align: center;
   display: block;
   font-family: Didot, Helvetica;
+}
 
+
+h1::after {
+  content:"me";
+  background: red;
+  color:white;
+  font-size:10px;
+  border-radius: 9em;
 }
 
 html {
