@@ -36,27 +36,21 @@ main {
 }
 
 img {
-
   width: 100%;
   border-top: 1px dotted silver;
   padding: 1em;
 }
 
-
-
 ol {
-
   display:grid;
   grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
-  grid-gap: 10px;
-
+  
   list-style: none;
   counter-reset: steps;
 }
 
 ol li {
   counter-increment: steps;
-
 }
 
 ol li::before {
@@ -76,6 +70,7 @@ ol li::before {
 ol ol li::before {
   background: darkorchid;
 }
+
 
 /*
 
