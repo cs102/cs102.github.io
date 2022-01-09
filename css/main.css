@@ -2,6 +2,26 @@
   box-sizing: border-box;
 }
 
+/*
+header {
+    background: #2E1811;
+    background-image: url("../images/dirt.jpeg");
+    background-size: cover;
+    padding: 2rem 0;
+    color: #fff;
+    text-shadow: 0px 1px 6px rgba(0, 0, 0, 0.6);
+}
+
+*/
+
+h1 {
+  margin: auto;
+  text-align: center;
+  display: block;
+  font-family: Didot, Helvetica;
+
+}
+
 html {
   font-family: Helvetica, sans-serif;
   font-size: 1.2em;
@@ -11,29 +31,32 @@ html {
 main {
   display:grid;
   grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
-  grid-gap: 20px;
+  grid-gap: 10px;
 
 }
 
 img {
-  display:block;
+
   width: 100%;
-  border-bottom: 1px dotted silver;
+  border-top: 1px dotted silver;
   padding: 1em;
 }
 
 
-.small {
-  max-width:50%;
-}
 
 ol {
-  display:block;
+
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+  grid-gap: 10px;
+
   list-style: none;
   counter-reset: steps;
 }
+
 ol li {
   counter-increment: steps;
+
 }
 
 ol li::before {
