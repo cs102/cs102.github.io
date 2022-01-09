@@ -1,12 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-family: Helvetica, sans-serif;
   font-size: 1.2em;
   letter-spacing: 0.035rem;
 }
 
+main {
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+  grid-gap: 20px;
+
+}
+
 img {
-  max-width: auto;
-  height: auto;
+  display:block;
+  width: 100%;
   border-bottom: 1px dotted silver;
   padding: 1em;
 }
@@ -17,6 +28,7 @@ img {
 }
 
 ol {
+  display:block;
   list-style: none;
   counter-reset: steps;
 }
