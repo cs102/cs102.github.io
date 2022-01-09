@@ -11,13 +11,21 @@ header {
 
 */
 
-h1 {
-  margin: auto;
-  text-align: center;
-  display: block;
-  font-family: Didot, Helvetica;
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 1.2em;
+  letter-spacing: 0.035rem;
 }
 
+header {
+  margin: auto;
+  text-align: center;
+  font-family: Didot, Helvetica;
+
+}
+
+/*
+effect is nice, dis-align h1 text on mobile viewport
 
 h1::after {
   content:"me";
@@ -26,12 +34,8 @@ h1::after {
   font-size:10px;
   border-radius: 9em;
 }
+*/
 
-html {
-  font-family: Helvetica, sans-serif;
-  font-size: 1.2em;
-  letter-spacing: 0.035rem;
-}
 
 body {
   overscroll-behavior: none; /* disables bounce effect bottom pages*/
@@ -87,7 +91,7 @@ ol ol li::before {
 
 footer {
   margin-left: 1em;
-  
+
 }
 
 
