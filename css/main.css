@@ -1,0 +1,50 @@
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 1.2em;
+  letter-spacing: 0.035rem;
+}
+
+img {
+  max-width: auto;
+  height: auto;
+  border-bottom: 1px dotted silver;
+  padding: 1em;
+}
+
+
+.small {
+  max-width:50%;
+}
+
+ol {
+  list-style: none;
+  counter-reset: steps;
+}
+ol li {
+  counter-increment: steps;
+}
+
+ol li::before {
+  content: counter(steps);
+  margin-right: 0.5rem;
+  background: #ff6f00;
+  color: white;
+  width: 1.2em;
+  height: 1.2em;
+  border-radius: 80%;
+  display: inline-grid;
+  place-items: center;
+  line-height: 1.4em;
+  font-size: 1.2em;
+}
+
+ol ol li::before {
+  background: darkorchid;
+}
+
+/*
+
+  Some ideas for styles came from this page, they know what they are doing
+  https://css-tricks.com/list-style-recipes/
+
+*/
