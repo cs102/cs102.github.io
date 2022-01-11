@@ -23,6 +23,11 @@ h1::after {
 }
 */
 
+content {
+  border: 1px solid silver;
+  display: grid;
+  margin: 0.5rem;
+}
 
 body {
   overscroll-behavior: none;
