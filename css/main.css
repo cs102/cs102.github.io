@@ -1,7 +1,7 @@
 html {
-  font-family: Helvetica, sans-serif;
-  font-size: 1.2em;
-  letter-spacing: 0.035rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.1em;
+  
 }
 
 header {
@@ -9,6 +9,12 @@ header {
   text-align: center;
   font-family: Didot, Helvetica;
 
+}
+
+p {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 /*
@@ -24,7 +30,7 @@ h1::after {
 */
 
 content {
-  border: 1px solid silver;
+  
   display: grid;
   margin: 0.5rem;
 }
