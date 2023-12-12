@@ -1,22 +1,32 @@
 body {
-    max-width:800px;
-    margin:40px auto;
-    padding:0 10px;
-    font:18px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    max-width:max-content;
+    width:auto;
+    margin-left: auto;
+    margin-right: auto;
+    font:2.25rem, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     color:#444; 
+    
 }
     
     h1,h2,h3{line-height:1.2}
-    span.h4{font-size: 1.6em;
-        color: white;
-        
-        border-bottom: 2px solid #c1ecce;}
-
-    @media (prefers-color-scheme: dark)
-    {
-        body {color:#e2e5e9;
-            background:#0d1117;
-        }
-
-        a:link{color:#58a6ff}
-        a:visited{color:#8e96f0}}
+    
+    /* Default font size for all devices */
+body {
+    font-size: 18px;
+    
+  }
+  
+  /* Media query for tablets and larger devices */
+  @media only screen and (min-width: 768px) {
+    body {
+      font-size: 18px;
+    }
+  }
+  
+  /* Media query for small devices like mobile phones */
+  @media only screen and (max-width: 767px) {
+    body {
+      font-size: 22px;
+      
+    }
+  }
