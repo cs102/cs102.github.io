@@ -1,0 +1,41 @@
+#container {
+        display: flex;
+        gap: 10px;
+        padding: 20px;
+        border: 2px dashed #aaa;
+        width: fit-content;
+        flex-wrap: wrap; /* Better for small screens */
+    }
+    
+.morpheme{
+	display: flex;
+	gap: 2rem;
+	font-family: "Georgia", serif;
+	font-size: 2rem;
+	border-radius: 0.2rem;
+	padding: 0.8rem;
+    width: fit-content;
+    flex-wrap: wrap; /* Better for small screens */
+}
+
+.word_prefix_one {
+	border: 1px solid red;
+	border-radius: 0.78rem;
+	padding: 0.75rem;
+	background-color:#FFE08F ;
+}
+
+.word_root_one{
+	border: 1px solid #FFCDC9;
+	padding: 0.75rem;
+	background-color:#FF6C0C ;
+	font-weight: bold;
+	border-radius: 0.78rem;
+}
+
+.word_suffix_one{
+	border: 1px solid #FD7979;
+	padding: 0.75rem;
+	background-color:#8FABD4 ;
+	border-radius: 0.78rem;
+}
