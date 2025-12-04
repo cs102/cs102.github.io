@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		 <meta name="description" content="Word Game - We give you a root word and you make as many words as you can.">
+		<title> Oni</title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="oni.css" />
+	<!-- SortableJS (touch + mobile support) -->
+<script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
+	
+	</style>
+	<body>
+	<div id="container">
+		<p class="morpheme" data-color="pre" >micro</p>
+		<p class="morpheme" data-color="root">bio</p>
+		<p class="morpheme" data-color="suffix">log</p>
+		<p class="morpheme" data-color="suffix_2">ist</p>
+	</div>
+	
+	<p id="time"> <span>v0.0.9</span> </p>
+	<script>
+		const d = new Date();
+		let text = 'v 0.0.9 ' + d.toString()
+		document.getElementById("time").innerHTML = text;
+		
+	</script>	
+	</body>
+	<script src = "oni.js"></script>
+		
+</html>
