@@ -2,8 +2,14 @@ Here is a simple flow chart:
 
 ```mermaid
 mindmap
-Root
-    A
-      B
-      C
+CVC Pattern Short vowel 
+    at
+      cat
+      hat
+    an
+      man
+      can
+    ap
+      map
+      cap
 ```
